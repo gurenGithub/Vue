@@ -1,0 +1,41 @@
+.tab_content>div {
+    display: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.tab_content>div:first-child {
+    display: block
+}
+.tab .tab_titlehover {
+    border-bottom: 3px solid #ff5031;
+    color: #ff5031;
+}
+
+
+
+.tab_title>ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0.0rem;
+    background: #fff;
+}
+
+.tab_title>ul>li {
+    display: inline-block;
+    width: 33.1%;
+    text-align: center;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    color: #000 !important;
+}
+
+.tab_title>ul>li>span {
+    height: 1.25rem;
+    line-height: 1.25rem;
+    display: block;
+}
+
+.tab_title>ul>li>span:hover {
+    border-bottom: 3px solid #ff5031;
+    color: #ff5031;
+}
